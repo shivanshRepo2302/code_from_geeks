@@ -1,0 +1,31 @@
+.CatagoriesHeader {
+  display: flex;
+  flex-direction: row;
+  column-gap: 17px;
+  justify-content: center;
+  margin-top: 17px; 
+  align-items: center;
+  padding: 10px;
+  background-color: #423f3f;
+}
+
+.Catagory{
+    background-color: bisque;
+    padding-left: 9px;
+    padding-right: 9px;
+    height: 2rem;
+    width: fit-content;
+    align-items: center;
+    justify-content: centerś;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.Catagory:hover {
+    background-color: #d6c9c9;
+}
+
+.Catagory:active {
+    background-color: #b8a7a7;
+    color: #423f3f;
+}
